@@ -1,0 +1,9 @@
+.nav-tabs {
+    width: 100vw;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.myName {
+    margin: 0px 35px 25rem 35px;
+}
