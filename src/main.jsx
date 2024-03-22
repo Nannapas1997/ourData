@@ -15,24 +15,27 @@ const router = createBrowserRouter ([
   {
     path: "/",
     element: <Root/>,
+    chidren: [
+      {
+        path: "/about",
+        element: <About/>
+      },
+      {
+        path: "/job",
+        element: <Job/>
+      },
+      {
+        path: "/portfolio",
+        element: <Portfolio/>
+      },
+      {
+        path: "/skill",
+        element: <Skill/>
+      }
+    
+    ]
   },
-  {
-    path: "/about",
-    element: <About/>
-  },
-  {
-    path: "/job",
-    element: <Job/>
-  },
-  {
-    path: "/portfolio",
-    element: <Portfolio/>
-  },
-  {
-    path: "/skill",
-    element: <Skill/>
-  }
-
+  
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
