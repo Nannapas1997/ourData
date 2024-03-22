@@ -5,5 +5,11 @@
     top:0;
 }
 .myName {
-    margin: 0px 35px 25rem 35px;
+    padding: 0px 35px 1rem 35px;
+}
+.mylistjob {
+    padding: 0px 55px 20px 55px;
+}
+.myName2 {
+    padding: 0px 35px 0rem 35px;
 }

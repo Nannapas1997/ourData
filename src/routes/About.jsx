@@ -5,7 +5,7 @@ export default function About() {
         <>
         <div>
             <div>
-                 <h1 class="myName">Hi</h1>
+                 <h1 class="myName">Hi, Myname is Nannapas Phasukyingchareon. My Nickname is May.</h1>
             </div>
            
         </div>
